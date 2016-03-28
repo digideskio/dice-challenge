@@ -6,10 +6,10 @@ The user wishes to roll a number of dice with distinct faces. There are four dif
 
 Side 1 | Side 2 | Side 3 | Side 4 | Side 5 | Side 6
 --- | --- | ---| --- | ---| ---|
-B | `d` | `d` | `s` | `s` | `C`
-B | `blank` | `blank` | `d` | `d` | `D`
-B | `blank` | `blank` | `s` | `s` | `S`
-B | `-` | `blank` | `blank`| `blank` | `blank`
+`B` | `d` | `d` | `s` | `s` | `C`
+`B` | `blank` | `blank` | `d` | `d` | `D`
+`B` | `blank` | `blank` | `s` | `s` | `S`
+`B` | `-` | `blank` | `blank`| `blank` | `blank`
 
 dice-challenge accepts an array of dice and computes all possible combinations and number of times said combination can occur.
 
